@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>Tic-Tac-Toe</title>
+	<link rel="stylesheet" href="style.css">
+	<script	src="tictactoe.js">
+	</script>
+ </head>
+<body >
+	<h1>
+		This is a game of Tic-Tac-Toe
+	</h1>
+	<div id="choose">
+    	Choose your charecter:  
+	    <button onclick="choseX()">
+    		X
+	    </button>
+    	or
+	    <button onclick="choseY()">
+    		Y
+	    </button>
+    	<br><br><br>
+    </div>
+	<div >
+		<button id="b11" onclick="document.getElementById('b11').innerHTML =flagT(),but1(),maincheck(),disabled=true" >unclicked</button>
+		<button id="b12" onclick="document.getElementById('b12').innerHTML =flagT(),but2(),maincheck(),disabled=true" >unclicked</button>
+		<button id="b13" onclick="document.getElementById('b13').innerHTML =flagT(),but3(),maincheck(),disabled=true" >unclicked</button>
+		<br><br>
+		<button id="b21" onclick="document.getElementById('b21').innerHTML =flagT(),but4(),maincheck(),disabled=true" >unclicked</button>
+		<button id="b22" onclick="document.getElementById('b22').innerHTML =flagT(),but5(),maincheck(),disabled=true" >unclicked</button>
+		<button id="b23" onclick="document.getElementById('b23').innerHTML =flagT(),but6(),maincheck(),disabled=true" >unclicked</button>
+		<br><br>
+		<button id="b31" onclick="document.getElementById('b31').innerHTML =flagT(),but7(),maincheck(),disabled=true" >unclicked</button>
+		<button id="b32" onclick="document.getElementById('b32').innerHTML =flagT(),but8(),maincheck(),disabled=true" >unclicked</button>
+		<button id="b33" onclick="document.getElementById('b33').innerHTML =flagT(),but9(),maincheck(),disabled=true" >unclicked</button>
+
+		<br><br><br><br>
+        
+
+	</div>
+	<div >
+		<button onclick="reset()">Click to reset</button>
+	</div>
+
+</body>
+</html>
